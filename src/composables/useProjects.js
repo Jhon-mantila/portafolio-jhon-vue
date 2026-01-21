@@ -76,7 +76,7 @@ function stripHtml(html) {
 function mapCategory(categoryIds = []) {
   // ejemplo: cambia los IDs por los reales de tu WP
   if (categoryIds.includes(107)) return 'Desarrollo web'
-  if (categoryIds.includes(36)) return 'Videojuegos'
-  if (categoryIds.includes(13)) return 'Diseño gráfico'
-  //return 'Desarrollo web'
+  if (categoryIds.includes(109)) return 'Videojuegos'
+  if (categoryIds.includes(111)) return 'Diseño gráfico'
+  return 'Desarrollo web'
 }

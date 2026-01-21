@@ -93,7 +93,7 @@ const thumbStyle = computed(() => {
 
 .actions {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .btn {

@@ -4,8 +4,8 @@
       <p>© {{ year }} Jhon Mantilla</p>
 
       <div class="social">
-        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
-        <a href="https://github.com" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/jhon-edinson-mantilla-ruiz-b2038b207/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Jhon-mantila" target="_blank">GitHub</a>
       </div>
     </div>
   </footer>

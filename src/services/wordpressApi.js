@@ -3,7 +3,8 @@ const WP_BASE = 'https://esquinaweb.com/wp-json/wp/v2'
 export async function fetchProjects() {
   const url =
     `${WP_BASE}/posts` +
-    '?_embed' +                // para imagen destacada
+    '?categories=107,109,111' +
+    '&_embed' +                // para imagen destacada
     '&per_page=20' +           // suficiente para portafolio
     '&orderby=date' +
     '&order=desc'

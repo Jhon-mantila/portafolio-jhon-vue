@@ -7,12 +7,12 @@
 
           <p class="text">
             Apasionado por transformar ideas en soluciones digitales. Me gusta construir productos con
-            buen diseño, buen performance y código limpio. Trabajo con desarrollo web (Laravel, JS)
+            buen diseño, buen performance y código limpio. Trabajo con desarrollo web (PHP | JS | MYSQL | KOTLIN | LARAVEL | APIS | ETL | GODOT | GIT)
             y tengo inclinación por diseño gráfico y experiencias interactivas.
           </p>
 
           <div class="social">
-            <a class="icon-btn" href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub">
+            <a class="icon-btn" href="https://github.com/Jhon-mantila" target="_blank" rel="noopener" aria-label="GitHub">
               <!-- GitHub -->
               <svg viewBox="0 0 24 24" class="icon" aria-hidden="true">
                 <path
@@ -22,7 +22,7 @@
               </svg>
             </a>
 
-            <a class="icon-btn" href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <a class="icon-btn" href="https://www.linkedin.com/in/jhon-edinson-mantilla-ruiz-b2038b207/" target="_blank" rel="noopener" aria-label="LinkedIn">
               <!-- LinkedIn -->
               <svg viewBox="0 0 24 24" class="icon" aria-hidden="true">
                 <path
@@ -32,7 +32,7 @@
               </svg>
             </a>
 
-            <a class="icon-btn" href="mailto:tuemail@dominio.com" aria-label="Email">
+            <a class="icon-btn" href="mailto:jhon.e.mantilla@gmail.com" aria-label="Email">
               <!-- Mail -->
               <svg viewBox="0 0 24 24" class="icon" aria-hidden="true">
                 <path
@@ -157,6 +157,8 @@
   box-shadow: 0 14px 50px rgba(0, 0, 0, 0.5);
   background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.18), transparent 55%),
     linear-gradient(135deg, rgba(124, 77, 255, 0.7), rgba(179, 136, 255, 0.25));
+  background-image: url("https://esquinaweb.com/wp-content/uploads/2026/01/foto-jhon.jpg");
+  background-size : contain;
 }
 
 /* Responsive */

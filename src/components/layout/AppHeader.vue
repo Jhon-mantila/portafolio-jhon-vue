@@ -4,25 +4,39 @@
       <div class="brand">Jhon Mantilla</div>
 
       <div class="actions">
-        <button class="icon-btn" type="button" aria-label="Buscar" title="Buscar">
-          <!-- search -->
-          <svg viewBox="0 0 24 24" class="icon" aria-hidden="true">
-            <path
-              d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Zm0-2a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11Zm8.9 4.3-4.2-4.2 1.4-1.4 4.2 4.2-1.4 1.4Z"
-              fill="currentColor"
-            />
-          </svg>
-        </button>
+        <!-- Esquina Web -->
+        <a
+          class="icon-btn"
+          href="https://esquinaweb.com/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Esquina Web"
+          title="Esquina Web"
+        >
+          <img
+            class="icon-img"
+            src="https://esquinaweb.com/wp-content/uploads/2025/04/cropped-Esquina-Wed-Icono.png"
+            alt="Esquina Web"
+            width="20" height="20"
+          />
+        </a>
 
-        <button class="icon-btn" type="button" aria-label="Cambiar tema" title="Cambiar tema">
-          <!-- theme / moon -->
-          <svg viewBox="0 0 24 24" class="icon" aria-hidden="true">
-            <path
-              d="M21 14.6A7.9 7.9 0 0 1 9.4 3a7.1 7.1 0 1 0 11.6 11.6Z"
-              fill="currentColor"
-            />
-          </svg>
-        </button>
+        <!-- Esquina Gamers -->
+        <a
+          class="icon-btn"
+          href="https://esquinagamers.com/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Esquina Gamers"
+          title="Esquina Gamers"
+        >
+          <img
+            class="icon-img"
+            src="https://esquinaweb.com/wp-content/uploads/2025/04/Esquina-Gamer-Icono.png"
+            alt="Esquina Gamers"
+            width="25" height="25"
+          />
+        </a>
 
         <button class="icon-btn" type="button" aria-label="Menú" title="Menú">
           <!-- menu -->
@@ -107,7 +121,11 @@
   width: 18px;
   height: 18px;
 }
+.icon-img {
 
+  object-fit: contain;
+  display: block;
+}
 /* Responsive: si quieres ocultar el texto y dejar solo ícono en móviles extremos */
 @media (max-width: 360px) {
   .brand {
